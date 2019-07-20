@@ -17,4 +17,4 @@ var myObjk = {
     interest_in_coding : true
 };
 var myJson = JSON.stringify(myObjk);
-console.log(myJson);
+console.log(myJson); 
