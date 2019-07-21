@@ -1,11 +1,11 @@
-var even=function(nilai){
+function even(nilai){
     var result = false;
     if(nilai%2==0){
         result=true;
     }
     return result;
 }
-var evenSum=function(limit){
+function evenSum(limit){
     var a=0;
     var b=0;
     var c=1;
@@ -20,14 +20,14 @@ var evenSum=function(limit){
     }
     console.log(total);
 }
-var odd=function(nilai){
+function odd(nilai){
     var result = false;
     if(nilai%2==1){
         result=true;
     }
     return result;
 }
-var oddSum=function(limit){
+function oddSum(limit){
     var a=0;
     var b=0;
     var c=1;
